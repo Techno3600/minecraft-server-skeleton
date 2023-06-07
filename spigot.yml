@@ -13,15 +13,15 @@
 settings:
   debug: false
   player-shuffle: 0
-  timeout-time: 60
+  timeout-time: 600
   restart-on-crash: true
   restart-script: ./start.sh
   save-user-cache-on-stop-only: false
   sample-count: 12
   bungeecord: false
   user-cache-size: 1000
-  moved-wrongly-threshold: 0.0625
-  moved-too-quickly-multiplier: 10.0
+  moved-wrongly-threshold: 0.1625
+  moved-too-quickly-multiplier: 20.0
   netty-threads: 4
   attribute:
     maxHealth:
@@ -37,7 +37,7 @@ messages:
   unknown-command: Unknown command. Type "/help" for help.
   server-full: The server is full!
   outdated-client: Outdated client! Please use {0}
-  outdated-server: Outdated server! I'm still on {0}
+  outdated-server: The server runs {0} and is outdated
   restart: Server is restarting
 advancements:
   disable-saving: false
